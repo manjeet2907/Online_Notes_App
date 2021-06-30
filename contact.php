@@ -1,26 +1,27 @@
 <?php
+$title = 'Contact Us';
 require_once 'includes/header.php'
 ?>
 
 <?php
 $section_body = '
 <section>
-    <form method="GET" id="contact">
-            <div class="form-group">
+    <form method="GET" id="contact" style="max-width:600px; margin:auto;">
+            <div class="form-group mb-2">
                 <label for="name" class="visually-hidden">Your Name</label>
                 <input id="name" type="text" class="form-control" name="name" placeholder="Enter Your Full Name" max-length="30">
             </div>
-            <div class="form-group">
+            <div class="form-group mb-2">
                 <label for="Email" class="visually-hidden">Email</label>
                 <input id="Email" type="text" class="form-control" name="mail" placeholder="Enter Your Email id" max-length="50">
             </div>
-            <div class="form-group">
+            <div class="form-group mb-2">
                 <label for="message" class="visually-hidden">Message</label>
-                <input id="message" type="textarea" class="form-control" name="message" placeholder="Enter Your Message here" max-length="200">
+                <input id="message" type="textarea rows="10" class="form-control" name="message" placeholder="Enter Your Message here" max-length="200">
             </div>
-            <div class="form-group">
+            <div class="form-group mb-2">
                 <label for="Email" class="visually-hidden">Email</label>
-                <input id="button" type="button" class="form-control" name="submit" value="SUBMIT">
+                <input id="button" type="button" class="form-control btn btn-primary"" name="submit" value="SUBMIT">
             </div>
     </form>
 

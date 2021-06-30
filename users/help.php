@@ -1,4 +1,5 @@
 <?php
+$Ltitle ='Help';
 require_once 'loginheader.php'
 ?>
 
